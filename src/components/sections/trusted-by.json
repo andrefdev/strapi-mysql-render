@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_trusted_bies",
+  "info": {
+    "displayName": "Trusted by"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

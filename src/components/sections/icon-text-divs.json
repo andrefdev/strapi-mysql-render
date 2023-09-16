@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_icon_text_divs",
+  "info": {
+    "displayName": "IconTextDivs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.icon-text-div"
+    }
+  }
+}

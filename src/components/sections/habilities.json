@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_habilities",
+  "info": {
+    "displayName": "Habilities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "feature": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature"
+    }
+  }
+}

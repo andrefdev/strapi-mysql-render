@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_icon_text_divs",
+  "info": {
+    "displayName": "IconText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "USER",
+        "LIGHTBULB",
+        "LIKE",
+        "CLOCK"
+      ]
+    }
+  }
+}

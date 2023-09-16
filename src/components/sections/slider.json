@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_sliders",
+  "info": {
+    "displayName": "slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

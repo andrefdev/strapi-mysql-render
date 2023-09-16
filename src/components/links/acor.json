@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_links_acors",
+  "info": {
+    "displayName": "Acor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "product_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-category.product-category"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

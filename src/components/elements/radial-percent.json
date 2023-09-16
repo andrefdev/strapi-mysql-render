@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_radial_percents",
+  "info": {
+    "displayName": "radial percent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "percent": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_links_contact_links",
+  "info": {
+    "displayName": "contactLinks"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "contactType": {
+      "type": "enumeration",
+      "enum": [
+        "PHONE",
+        "EMAIL",
+        "ADDRESS"
+      ]
+    }
+  }
+}
